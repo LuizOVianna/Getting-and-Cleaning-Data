@@ -4,22 +4,22 @@
 1.Merges the training and the test sets to create one data set.
 ---------------------------------------------------------------
 
-feature :  file "features.txt" 
+feature :  Data from the file "features.txt" 
 
-subject_test : file "test/subject_test.txt" 
+subject_test : Data from the file "test/subject_test.txt" 
 
-y_test:  file "test/Y_test.txt" 
+y_test: Data from the file "test/Y_test.txt" 
 
-x_test:  file "test/X_test.txt"
+x_test: Data from the file "test/X_test.txt"
 
 all_test : all test files together
 
 
-subject_train :  file "train/subject_train.txt"
+subject_train : Data from the file "train/subject_train.txt"
 
-y_train: file "train/Y_train.txt" 
+y_train: Data from the file "train/Y_train.txt" 
 
-x_train: file "train/X_train.txt" 
+x_train: Data from the file "train/X_train.txt" 
 
 all_train all train files togeher
 
