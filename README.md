@@ -5,7 +5,7 @@
 	plyr 
 	magrittr 
 
-**Steps to process the data for each question
+	Steps to process the data for each question
 
 
 #1.Merges the training and the test sets to create one data set.
