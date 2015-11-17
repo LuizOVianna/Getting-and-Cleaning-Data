@@ -13,9 +13,13 @@ Steps to process the data for each question
 Load file "features.txt" into table feature 
 
 For test files:
+
 Load file "test/subject_test.txt" into table subject_test
+
 Load file "test/Y_test.txt" into table y_test ajusting column names to "activity"
+
 Load file "test/X_test.txt" into table x_test ajusting column names to column V2 in features table
+
 Bind all 3 test files into all_test table
 
 For train files:
