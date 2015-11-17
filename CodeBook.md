@@ -23,9 +23,13 @@ Load file "test/X_test.txt" into table x_test ajusting column names to column V2
 Bind all 3 test files into all_test table
 
 For train files:
+
 Load file "train/subject_train.txt" into table subject_train
+
 Load file "train/Y_train.txt" into table y_train ajusting column names to "activity"
+
 Load file "train/X_train.txt" into table x_train ajusting column names to column V2 in features table
+
 Bind all 3 train files into all_train table
 
 Put all together using bind and ordering by ID into table fulldata
@@ -42,14 +46,18 @@ select fulldata columns with names with "ID" or "activity" or "mean" or "std" an
 ---------------------------------------------------------------
 
 Load file "activity_labels.txt" into table activity_labels
+
 rename activity_labels columns "V1" to "activityID" and "V2" to "activity"
+
 rename fulldata_selected columns "activity" to "activityID" and "ID" to "subject"
+
 merge data from fulldata_selected and activity_labels by column activityID
 
 ---------------------------------------------------------------
  4.Appropriately labels the data set with descriptive variable names. 
 ---------------------------------------------------------------
 Rename columns with contracted names as: t to Time, f to Frequency, Acc to accelerometer, 
+
 Gyro to gyroscope, bodybody to body, mag to magnitude
 
 ---------------------------------------------------------------
@@ -57,6 +65,7 @@ Gyro to gyroscope, bodybody to body, mag to magnitude
    set with the average of each variable for each activity and each subject.
 ---------------------------------------------------------------
 get the step for result and calculate the mean for each column and subject
+
 write the data to a file "tdy.txt" (with no column names)
 
 
