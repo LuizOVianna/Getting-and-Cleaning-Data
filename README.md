@@ -60,4 +60,4 @@ For train files:
 
 1. get the step for result and calculate the mean for each column and subject
 
-write the data to a file "tdy.txt" (with no column names)
+2. write the data to a file "tdy.txt" (with no column names)
