@@ -56,6 +56,7 @@ merge data from fulldata_selected and activity_labels by column activityID
 ---------------------------------------------------------------
  4.Appropriately labels the data set with descriptive variable names. 
 ---------------------------------------------------------------
+
 Rename columns with contracted names as: t to Time, f to Frequency, Acc to accelerometer, 
 
 Gyro to gyroscope, bodybody to body, mag to magnitude
@@ -64,6 +65,7 @@ Gyro to gyroscope, bodybody to body, mag to magnitude
  5.From the data set in step 4, creates a second, independent tidy data
    set with the average of each variable for each activity and each subject.
 ---------------------------------------------------------------
+
 get the step for result and calculate the mean for each column and subject
 
 write the data to a file "tdy.txt" (with no column names)
