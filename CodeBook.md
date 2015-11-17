@@ -25,17 +25,17 @@
  3.Uses descriptive activity names to name the activities in the data set
 ---------------------------------------------------------------
 
-activity_labels: file "activity_labels.txt" with names ajusted
+	activity_labels: file "activity_labels.txt" with names ajusted
 
 
 ---------------------------------------------------------------
  4.Appropriately labels the data set with descriptive variable names. 
 ---------------------------------------------------------------
-uses fulldata_selected
+	uses fulldata_selected
 
 ---------------------------------------------------------------
  5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 ---------------------------------------------------------------
 
-tdydata : the final data for the project 
+	tdydata : the final data for the project 
 
