@@ -12,7 +12,7 @@
 
 1. Load file "features.txt" into table feature 
 
-For test files:
+2. For test files:
 
 Load file "test/subject_test.txt" into table subject_test
 
