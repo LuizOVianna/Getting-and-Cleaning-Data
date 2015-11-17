@@ -4,7 +4,7 @@
 1.Merges the training and the test sets to create one data set.
 ---------------------------------------------------------------
 
-feature :  Data from the file "features.txt" 
+##feature :  Data from the file "features.txt" 
 
 subject_test : Data from the file "test/subject_test.txt" 
 
