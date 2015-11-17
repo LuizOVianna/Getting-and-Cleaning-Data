@@ -4,22 +4,22 @@
 1.Merges the training and the test sets to create one data set.
 ---------------------------------------------------------------
 
-	* feature :  Data from the file "features.txt" 
-	* subject_test : Data from the file "test/subject_test.txt" 
-	* y_test: Data from the file "test/Y_test.txt" 
-	* x_test: Data from the file "test/X_test.txt"
-	* all_test : all test files together
-	* subject_train : Data from the file "train/subject_train.txt"
-	* y_train: Data from the file "train/Y_train.txt" 
-	* x_train: Data from the file "train/X_train.txt" 
-	* all_train all train files togeher
-	* fulldata: alltrain and alltest joined
+	feature :  Data from the file "features.txt" 
+	subject_test : Data from the file "test/subject_test.txt" 
+	y_test: Data from the file "test/Y_test.txt" 
+	x_test: Data from the file "test/X_test.txt"
+	all_test : all test files together
+	subject_train : Data from the file "train/subject_train.txt"
+	y_train: Data from the file "train/Y_train.txt" 
+	x_train: Data from the file "train/X_train.txt" 
+	all_train all train files togeher
+	fulldata: alltrain and alltest joined
 
 ---------------------------------------------------------------
  2.Extracts only the measurements on the mean and standard deviation for each measurement. 
 ---------------------------------------------------------------
 
-	* fulldata_selected: only fulldata columns with names with "ID" or "activity" or "mean" or "std" 
+	fulldata_selected: only fulldata columns with names with "ID" or "activity" or "mean" or "std" 
 
 ---------------------------------------------------------------
  3.Uses descriptive activity names to name the activities in the data set
