@@ -35,8 +35,7 @@ Bind all 3 train files into all_train table
 Put all together using bind and ordering by ID into table fulldata
 
 ---------------------------------------------------------------
- 2.Extracts only the measurements on the mean and standard 
-    deviation for each measurement. 
+ 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
 ---------------------------------------------------------------
 
 select fulldata columns with names with "ID" or "activity" or "mean" or "std" and insert into table fulldata_selected
@@ -62,8 +61,7 @@ Rename columns with contracted names as: t to Time, f to Frequency, Acc to accel
 Gyro to gyroscope, bodybody to body, mag to magnitude
 
 ---------------------------------------------------------------
- 5.From the data set in step 4, creates a second, independent tidy data
-   set with the average of each variable for each activity and each subject.
+ 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 ---------------------------------------------------------------
 
 get the step for result and calculate the mean for each column and subject
