@@ -2,7 +2,7 @@
 
 #Libraries needed
 
-  plyr 
+	* plyr 
   magrittr 
   knitr
 
