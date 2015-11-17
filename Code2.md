@@ -1,8 +1,9 @@
 Libraries needed
 
-library("plyr")
-library("magrittr")
-library("knitr")
+plyr
+
+magrittr
+knitr
 
 Steps to process the data for each question
 
