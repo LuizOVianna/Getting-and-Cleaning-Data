@@ -1,7 +1,6 @@
 Libraries needed
 
 plyr
-
 magrittr
 knitr
 
