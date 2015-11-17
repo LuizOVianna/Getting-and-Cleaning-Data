@@ -2,7 +2,9 @@
 
 #Libraries needed
 
-plyr magrittr knitr
+  plyr 
+  magrittr 
+  knitr
 
 Steps to process the data for each question
 
