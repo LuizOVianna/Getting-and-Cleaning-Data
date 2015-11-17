@@ -4,7 +4,6 @@
 
 	plyr 
 	magrittr 
-	knitr
 
 Steps to process the data for each question
 
