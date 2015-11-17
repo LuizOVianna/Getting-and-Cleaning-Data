@@ -4,12 +4,8 @@
 1.Merges the training and the test sets to create one data set.
 ---------------------------------------------------------------
 
-Load file "features.txt" into table feature 
-
-For test files:
-
-Load file "test/subject_test.txt" into table subject_test
-
+feature :  file "features.txt" 
+subject_test : file "test/subject_test.txt" 
 Load file "test/Y_test.txt" into table y_test ajusting column names to "activity"
 
 Load file "test/X_test.txt" into table x_test ajusting column names to column V2 in features table
